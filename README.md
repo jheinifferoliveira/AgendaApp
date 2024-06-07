@@ -18,4 +18,3 @@ Após configurar o banco de dados local e atualizar a string de conexão no arqu
 - Documentação do ASP.NET API: [ASP.NET API Documentation](https://docs.microsoft.com/pt-br/aspnet/core/web-api/?view=aspnetcore-8.0)
 - Documentação do Entity Framework Core: [Entity Framework Core Documentation](https://docs.microsoft.com/pt-br/ef/core/)
 - Documentação do AutoMapper: [AutoMapper Documentation](https://docs.automapper.org/en/latest/)
-

@@ -9,7 +9,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-API", "1-API", "{6AB61BB7
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-DATA", "2-DATA", "{DA575690-8502-4837-B92D-ECC78F0DFC5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendaApp.Data", "AgendaApp.Data\AgendaApp.Data.csproj", "{6044B6E4-FE59-418C-91CB-9DC1E6539EA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgendaApp.Data", "AgendaApp.Data\AgendaApp.Data.csproj", "{6044B6E4-FE59-418C-91CB-9DC1E6539EA2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-TESTS", "3-TESTS", "{6B36E717-271D-4607-8278-F6C380BB79F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendaApp.Tests", "AgendaApp.Tests\AgendaApp.Tests.csproj", "{07D21BA5-6816-41BC-8C26-8CF28C1BD998}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +29,10 @@ Global
 		{6044B6E4-FE59-418C-91CB-9DC1E6539EA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6044B6E4-FE59-418C-91CB-9DC1E6539EA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6044B6E4-FE59-418C-91CB-9DC1E6539EA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07D21BA5-6816-41BC-8C26-8CF28C1BD998}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07D21BA5-6816-41BC-8C26-8CF28C1BD998}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07D21BA5-6816-41BC-8C26-8CF28C1BD998}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07D21BA5-6816-41BC-8C26-8CF28C1BD998}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{AB13DB27-9149-4068-9B17-CD08FDD12CE1} = {6AB61BB7-4F07-4972-A31C-13FFEE812651}
 		{6044B6E4-FE59-418C-91CB-9DC1E6539EA2} = {DA575690-8502-4837-B92D-ECC78F0DFC5D}
+		{07D21BA5-6816-41BC-8C26-8CF28C1BD998} = {6B36E717-271D-4607-8278-F6C380BB79F8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {553C5818-98C9-4BDE-877E-D7F4CD772B5A}
